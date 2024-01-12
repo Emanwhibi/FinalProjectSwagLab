@@ -60,7 +60,7 @@ public class TestCases {
 
 		AllItem.get(indextwo).findElement(By.className("btn_primary")).click();
 		driver.manage().timeouts().implicitlyWait(java.time.Duration.ofSeconds(5));
-		Thread.sleep(60000);		
+		Thread.sleep(6000);		
 
 
 
